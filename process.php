@@ -1,4 +1,4 @@
-<?php include_once("home.html"); ?>
+<?php include_once("index.html"); ?>
 	session_start();
 	$email = trim($_POST["username"]);
 	$password = trim($_POST["password"]);
